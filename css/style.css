@@ -17,10 +17,55 @@ body {
           align-items: center;
   padding: 50px; }
   .logotype .title {
-    color: white; }
-    .logotype .title font {
-      weight: 900;
-      size: 50px; }
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px; }
+    .logotype .title span {
+      font-size: 30px; }
 
-.game {
-  font-size: 90px; }
+.new {
+  color: white;
+  border-color: white;
+  background-color: #BD967A;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
+
+.buttons {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .buttons .pick {
+    border: none;
+    background-color: #BD967A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700; }
+    .buttons .pick .fa {
+      font-size: 200px; }
+
+.score {
+  font-size: 100px;
+  font-weight: 900; }
+
+.name {
+  font-size: 40px;
+  font-weight: 900; }
+
+.selection {
+  color: #5bc0de;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 0; }
+
+.result {
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  padding: 10px 0; }
