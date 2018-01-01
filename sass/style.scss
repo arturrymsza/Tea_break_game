@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@charset 'utf-8';
+
+$fonts: 'Montserrat', sans-serif;
+$background-color: #BD967A;
+
+body {
+	background-color: $background-color;
+	font-family: $fonts;
+}
+
+.logotype {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	.title {
+		padding: 20px;
+		color: white;
+		font: {
+			weight: 900;
+			size: 50px;
+		}
+		span {
+			font-size: 30px;
+		}
+	}
+}
+
+.new {
+	color: white;
+	border-color: white;
+	background-color: $background-color;
+	border-radius: 10px;
+	font: {
+		size: 40px;
+		weight: 700;
+		family: $fonts;
+	}
+}
+
+.buttons {
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-around;
+
+	.pick {
+		border: none;
+		background-color: $background-color;
+		color: white;
+		font: {
+			size: 20px;
+			weight: 700;
+		}
+
+		.fa {
+			font-size: 200px;
+		}
+	}
+}
+
+.score {
+	font: {
+		size: 100px;
+		weight: 900;
+	}
+}
+
+.name {
+	font: {
+		size: 40px;
+		weight: 900;
+	}
+}
+
+.selection {
+	color: #5bc0de;
+	font: {
+		size: 30px;
+		weight: 900;
+	}
+	padding: 10px 0;
+}
+
+.result {
+	color: red;
+	font: {
+		size: 30px;
+		weight: 900;
+		style: italic;
+	}
+	padding: 10px 0;
+}

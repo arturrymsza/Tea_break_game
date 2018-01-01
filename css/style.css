@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+body {
+  background-color: #BD967A;
+  font-family: "Montserrat", sans-serif; }
+
+.logotype {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px; }
+  .logotype .title {
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px; }
+    .logotype .title span {
+      font-size: 30px; }
+
+.new {
+  color: white;
+  border-color: white;
+  background-color: #BD967A;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
+
+.buttons {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .buttons .pick {
+    border: none;
+    background-color: #BD967A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700; }
+    .buttons .pick .fa {
+      font-size: 200px; }
+
+.score {
+  font-size: 100px;
+  font-weight: 900; }
+
+.name {
+  font-size: 40px;
+  font-weight: 900; }
+
+.selection {
+  color: #5bc0de;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 0; }
+
+.result {
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  padding: 10px 0; }
